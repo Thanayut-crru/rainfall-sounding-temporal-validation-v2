@@ -1,0 +1,57 @@
+{
+  "downloaded_utc": "2026-09-07T05:02:34.722973+00:00",
+  "scope": "Figure 1 background/map coverage only. No model feature or station elevation modifications.",
+  "sources": [
+    {
+      "path": "D:\\Artsky\\project_artsky\\paper\\rainfall_map_20260907\\data\\Copernicus_DSM_COG_10_N07_00_E099_00_DEM.tif",
+      "url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N07_00_E099_00_DEM/Copernicus_DSM_COG_10_N07_00_E099_00_DEM.tif",
+      "sha256": "767f33a0e21b6c6f5ae0a252d667d2c7ae06f7e0c44c643383dad5b27547420b",
+      "bytes": 36816360,
+      "crs": "EPSG:4326",
+      "bounds": [
+        98.99986111111112,
+        7.000138888888889,
+        99.99986111111112,
+        8.00013888888889
+      ],
+      "shape": [
+        3600,
+        3600
+      ],
+      "resolution_degrees": [
+        0.0002777777777777778,
+        0.0002777777777777778
+      ],
+      "nodata": null
+    },
+    {
+      "path": "D:\\Artsky\\project_artsky\\paper\\rainfall_map_20260907\\data\\ne_10m_land.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson",
+      "sha256": "1ac90796408bc6ad6911d69448485d3c4dbf2190370080368a09976e1c9f7416",
+      "bytes": 10157965,
+      "feature_count": 11,
+      "cartographic_scale": "1:10,000,000; NOT 10 m spatial resolution"
+    },
+    {
+      "path": "D:\\Artsky\\project_artsky\\paper\\rainfall_map_20260907\\data\\ne_10m_land_map_region.geojson",
+      "sha256": "74a61d9e61450ba7462b346ef72234aa4d37f4597a871776e201a81e79237e58",
+      "bytes": 1847671,
+      "feature_count": 7,
+      "derived_from": "ne_10m_land.geojson",
+      "method": "Bounding-box intersection selection of unchanged complete polygon members; no clipping or simplification",
+      "selection_bbox_wsen": [
+        98.03,
+        7.65,
+        100.0,
+        8.94
+      ]
+    }
+  ],
+  "references": [
+    "https://registry.opendata.aws/copernicus-dem/",
+    "https://copernicus-dem-30m.s3.amazonaws.com/readme.html",
+    "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/",
+    "https://github.com/nvkelso/natural-earth-vector"
+  ],
+  "mask_note": "Use the land polygons to distinguish sea from zero-elevation coastal land. Natural Earth is cartographic/generalized and may omit minor islands; no claim of DSM-pixel coastline accuracy."
+}

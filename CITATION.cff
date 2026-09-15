@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository using the metadata below."
+title: "rainfall-sounding-temporal-validation"
+authors:
+  - family-names: Changruenngam
+    given-names: Thanayut
+  - family-names: Prommai
+    given-names: Rattana
+  - family-names: Nanglae
+    given-names: Suruswadee
+  - family-names: Naitip
+    given-names: Weerapon
+  - family-names: Yodsuwan
+    given-names: Hathaiwan
+  - family-names: Klinhnu
+    given-names: Jumrus
+  - family-names: Binprathan
+    given-names: Aree
+version: "1.0.0"
+date-released: "2026-06-18"
+license: MIT
+repository-code: "https://github.com/Thanayut-crru/rainfall-sounding-temporal-validation"
+doi: "10.5281/zenodo.20756123"
+keywords:
+  - rainfall occurrence prediction
+  - upper-air sounding
+  - temporal validation
+  - machine learning
+  - calibration
